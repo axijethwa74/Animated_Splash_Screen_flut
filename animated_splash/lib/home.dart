@@ -164,7 +164,7 @@ final signUpButton=Material(
 
     return Stack(
       children: [
-Container(
+       Container(
           decoration: const BoxDecoration(
             // color: Colors.white,
             image: DecorationImage(

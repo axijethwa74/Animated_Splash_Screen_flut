@@ -31,17 +31,17 @@ class _SplashState extends State<Splash> {
                 alignment: Alignment.center,
                 clipBehavior: Clip.none,
                 fit: BoxFit.fill,
-                child: Image.asset("assets/images/chef.png"),
+                child: Image.asset("assets/images/logo.png"),
                 ),
              ),
            ),      
               ],      
           
-        ), nextScreen: const Home(),
-         backgroundColor: Colors.pink,
+        ), nextScreen: Home(),
+         backgroundColor: const Color.fromARGB(255, 24, 1, 38),
         splashIconSize: 550,
-        duration: 5000,
-        splashTransition: SplashTransition.rotationTransition,
+        duration: 1500,
+       // splashTransition: SplashTransition.rotationTransition,
         
         ),
         // ignore: sized_box_for_whitespace
